@@ -39,5 +39,5 @@ if product_link:
         # Show loading message
         with st.spinner('Loading...'):
             # Simulate processing time or actual generation
-            st.image(selected_image, caption="Sample Afbeelding")
+            st.image(selected_image, caption="Sample Afbeelding", width=300)
 
